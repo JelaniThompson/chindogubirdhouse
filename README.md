@@ -7,7 +7,7 @@
 </p>
 
 ### Project 3 - Useless Machines (Chindogu)
-- Jelani Thompso
+- Jelani Thompson
 - Julianne Uptegrove 
 - Elson Lee
 
