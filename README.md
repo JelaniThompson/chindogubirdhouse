@@ -1,4 +1,6 @@
-<img src="https://i.imgur.com/jBa3Fpc.png" align="center"/>
+<p align="center">
+  <img src="https://i.imgur.com/jBa3Fpc.png"/>
+</p>
 
 # Chindogu Birdhouse
 Useless birdhouse based on the Japanese art of Chindogu
@@ -13,16 +15,26 @@ The goal of this project was to build a useless and/or silly machine that explor
 Initially, we had planned to include multiple levels to our birdhouse to help conceal the arduino/wiring. Unfortunately, due to some errors with measuring the wood thickness, this wasn’t quite possible. However, we were able to salvage some of the middle section’s parts to create our door.
 
 Drawing out our measurements
-<img src="https://i.imgur.com/GdBlFEA.png" align="center"/>
+
+<p align="center">
+  <img src="https://i.imgur.com/GdBlFEA.png"/>
+</p>
 
 Preparing to make our cuts
-<img src="https://i.imgur.com/Q4qRL9G.png" align="center"/>
+<p align="center">
+  <img src="https://i.imgur.com/Q4qRL9G.png"/>
+</p>
 
 Middle piece that eventually ended up being scrapped
-<img src="https://i.imgur.com/32hzcnO.png" align="center"/>
+
+<p align="center">
+  <img src="https://i.imgur.com/32hzcnO.png"/>
+</p>
 
 ## Circuit Diagram
-<img src="https://i.imgur.com/Fcu6QM1.png" align="center"/>
+<p align="center">
+  <img src="https://i.imgur.com/Fcu6QM1.png"/>
+</p>
 
 Unfortunately, a day before we had to show this project to the class, I (Jelani) mistakenly snapped the Piezo Element which was used to detect vibrations. Because of this, I had to modify the code to run automatically, but prior to this mishap the code was performing as intended with the vibration sensing. We made use of the Arduino Knock Tutorial to accomplish this.
 
