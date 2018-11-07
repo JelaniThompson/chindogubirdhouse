@@ -16,14 +16,14 @@ int piezoValue = 0; // Intial vibration value
 Servo door;
 int pos = 90;
 
-void setup() {  
+void setup() {
   pinMode(12, OUTPUT);
-	pinMode(9, OUTPUT);
+  pinMode(9, OUTPUT);
   
-	digitalWrite(12, LOW);
+  digitalWrite(12, LOW);
   delay(500);
 
-	door.attach(9); // Telling our servo to use pin 9
+  door.attach(9); // Telling our servo to use pin 9
   Serial.begin(9600);
 }
 
@@ -31,7 +31,7 @@ void loop() {
   digitalWrite(12, LOW);
   delay(100);
 
-	  // Solenoid in, door vertical
+  // Solenoid in, door vertical
   for (pos = 180; pos >= 90; pos -= 1) {
     door.write(pos);
   }
@@ -40,9 +40,9 @@ void loop() {
   Serial.println(piezoValue);
 
   if (piezoValue == 0) {
-		// When vibration detected, stick out
+    // When vibration detected, stick out
     digitalWrite(12, HIGH);
-		digitalWrite(9, HIGH);
+    digitalWrite(9, HIGH);
   } else if (piezoValue > 0) {
     digitalWrite(12, LOW);
   }
